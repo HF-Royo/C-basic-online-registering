@@ -1,0 +1,34 @@
+using System;
+
+class Program
+{
+    static void Main() {
+        
+        Console.Write("Last Name: ");
+        string LN = Console.ReadLine();
+        
+        Console.Write("First Name: ");
+        string FN = Console.ReadLine();
+        
+        Console.Write("Middle Name: ");
+        string MN = Console.ReadLine();
+        
+        Console.Write("Number: ");
+        int Num = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Street: ");
+        string St = Console.ReadLine();
+        
+        Console.Write("City/Municipality: ");
+        string CM = Console.ReadLine();
+        
+        Console.WriteLine("----------------------------------------------");
+        
+        Console.WriteLine("Full Name: {0} {1} {2}", FN, MN, LN);
+        
+        Console.WriteLine("Complete Address: {0} {1} {2}", Num, St, CM);
+        
+        Console.WriteLine("Thank you {0} for registering with us!!!", FN);        
+            
+    }
+}
